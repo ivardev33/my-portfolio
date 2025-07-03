@@ -2,13 +2,13 @@ import Link from 'next/link'
 
 export default function Navbar() {
   return (
-    <nav className="bg-gray-800 text-white py-4">
-      <div className="max-w-4xl mx-auto flex justify-center gap-8">
-        <Link href="/" className="hover:underline">Inicio</Link>
-        <Link href="/about" className="hover:underline">Sobre mí</Link>
-        <Link href="/projects" className="hover:underline">Proyectos</Link>
-        <Link href="/contact" className="hover:underline">Contacto</Link>
-      </div>
+    <nav className="fixed top-0 left-0 right-0 bg-white shadow-md z-50">
+      <ul className="flex justify-center space-x-6 p-4">
+        <li><a href="#hero" className=" text-black hover:underline">Inicio</a></li>
+        <li><a href="#technologies" className="text-black hover:underline">Tecnologías</a></li>
+        <li><a href="#about" className=" text-black hover:underline">Sobre mí</a></li>
+        <li><a href="#contact" className=" text-black hover:underline">Contacto</a></li>
+      </ul>
     </nav>
   )
 }
