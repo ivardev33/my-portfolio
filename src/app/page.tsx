@@ -1,5 +1,5 @@
 import Technologies from '@/components/Technologies'
-import AnimatedSection from "../components/AnimatedSection";
+
 
 export default function HomePage() {
   return (
