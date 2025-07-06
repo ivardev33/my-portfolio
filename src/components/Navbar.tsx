@@ -29,7 +29,7 @@ const toggleMenu=()=>setMenuOpen(!menuOpen);
         </button>
 
         {/* Enlaces a la derecha */}
-        <ul className="flex items-center space-x-6 text-gray-400">
+        <ul className="hidden md:flex items-center space-x-6 text-gray-400">
           <li><a href="#hero" className="hover:underline hover:text-white">Inicio</a></li>
           <li><a href="#technologies" className="hover:underline hover:text-white">Tecnologías</a></li>
           <li><a href="#about" className="hover:underline hover:text-white">Sobre mí</a></li>
