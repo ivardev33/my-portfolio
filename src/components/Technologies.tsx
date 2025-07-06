@@ -2,7 +2,8 @@
 
 import { motion } from 'framer-motion'
 import { FaReact, FaHtml5, FaCss3Alt, FaNodeJs, FaGitAlt } from 'react-icons/fa'
-import { SiNextdotjs, SiTailwindcss, SiFirebase, SiKotlin, SiJavascript, SiJetpackcompose } from 'react-icons/si'
+
+import { SiNextdotjs, SiTailwindcss, SiFirebase, SiKotlin, SiJavascript, SiJetpackcompose,SiMysql } from 'react-icons/si'
 
 const techs = [
     { icon: <FaReact size={40} color="#61DBFB" />, name: 'React' },
@@ -15,7 +16,8 @@ const techs = [
     { icon: <SiFirebase size={40} color="#FFCA28" />, name: 'Firebase' },
     { icon: <SiKotlin size={40} color="#7F52FF" />, name: 'Kotlin' },
     { icon: <SiJavascript size={40} color="#f7df1e" />, name: 'JavaScript' },
-    { icon: <SiJetpackcompose size={40} color="#4285F4" />, name: 'Jetpack Compose' }
+    { icon: <SiJetpackcompose size={40} color="#4285F4" />, name: 'Jetpack Compose' },
+    { icon: <SiMysql size={40} color="#00758f" />, name: 'MySQL' }, // SQL
 ]
 
 export default function Technologies() {
