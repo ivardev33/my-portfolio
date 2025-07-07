@@ -26,3 +26,8 @@ body {
 }
 /* styles/globals.css o donde tengas tu CSS global */
 
+html {
+
+  scroll-behavior: smooth;
+
+}
