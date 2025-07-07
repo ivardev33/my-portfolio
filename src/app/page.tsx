@@ -6,7 +6,7 @@ export default function HomePage() {
     <main className="scroll-smooth">
       <section id="hero" className="min-h-screen flex flex-col items-center justify-center text-center p-8  bg-gray-900">
         <img src="/perfil.jpg" alt="Foto de perfil" className="w-70 h-70 rounded-full mx-auto mb-6 shadow-md object-cover" />
-        <h1 className="text-4xl font-bold mb-4">¡Hola! Soy Iván</h1>
+        <h1 className="text-4xl font-bold mb-4 text-white">¡Hola! Soy Iván</h1>
         <p className="text-lg text-gray-700">Desarrollador Full Stack especializado en React, Kotlin y más.</p>
       </section>
 
