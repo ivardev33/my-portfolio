@@ -22,7 +22,8 @@ const techs = [
 
 export default function Technologies() {
     return (
-        <section id="technologies" className=" animate-on-scroll min-h-screen flex flex-col items-center justify-center p-8 bg-black-100">
+
+        /*<section id="technologies" className=" animate-on-scroll min-h-screen flex flex-col items-center justify-center p-8 bg-black-100">
             <h2 className="text-3xl font-bold mb-6">Tecnologías que uso</h2> 
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
                 {techs.map((tech, index) => (
@@ -37,6 +38,27 @@ export default function Technologies() {
                     </motion.div>
                 ))}
             </div>
+        </section>*/
+
+         <section className=" animate-on-scroll min-h-screen flex flex-col items-center justify-center p-8 bg-black-100">
+            <span className="text-3xl font-bold mb-6 text-center" >Tecnologías que uso</span>
+            
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
+                {techs.map((tech, index) => (
+                    <div
+                        key={index}
+                        
+                        className="hover:animate-pulse flex flex-col items-center justify-center gap-2 p-4 bg-white rounded-xl shadow-md"
+                    >
+                        <span className= "hover:animate-spin">{tech.icon}</span>
+                        <span className="mt-2 text-sm text-gray-800">{tech.name}</span>
+                    </div>
+                ))}
+            </div>
         </section>
+
+
+        
+
     )
 }
