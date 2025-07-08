@@ -1,6 +1,6 @@
 'use client'
 
-import { motion } from 'framer-motion'
+//import { motion } from 'framer-motion'
 import { FaReact, FaHtml5, FaCss3Alt, FaNodeJs, FaGitAlt } from 'react-icons/fa'
 
 import { SiNextdotjs, SiTailwindcss, SiFirebase, SiKotlin, SiJavascript, SiJetpackcompose,SiMysql } from 'react-icons/si'
