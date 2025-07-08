@@ -5,7 +5,7 @@ return(
 
 
 
-<section id="contact" className="min-h-screen flex flex-col items-center justify-center p-8 bg-black-100">
+<section id="contact" className=" animate-on-scroll min-h-screen flex flex-col items-center justify-center p-8 bg-black-100">
         <h2 className="text-3xl font-bold mb-6">Contacto</h2>
 
         <p className="text-gray-700 mb-4">

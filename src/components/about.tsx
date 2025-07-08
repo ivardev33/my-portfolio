@@ -7,7 +7,7 @@ export default function About(){
     return(
 
 
-<section id="about" className="min-h-screen flex flex-col justify-center items-center px-6 py-16 bg-gray-900 text-white">
+<section id="about" className=" animate-on-scroll min-h-screen flex flex-col justify-center items-center px-6 py-16 bg-gray-900 text-white">
         <h2 className="text-4xl font-bold text-center mb-8 text-white">Sobre mí</h2>
 
         <div className="max-w-3xl text-lg text-gray-200 space-y-6 leading-relaxed bg-gray-800 p-8 rounded-2xl shadow-xl">

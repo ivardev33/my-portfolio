@@ -5,7 +5,7 @@ export default function Hero(){
 
 
 
-    <section id="hero" className=" flex flex-col items-center justify-center text-center pb-30 pt-20  bg-gray-900">
+    <section id="hero" className=" animate-on-scroll  min-h-screen flex flex-col items-center justify-center text-center pb-30 pt-20  bg-gray-900">
         <motion.div
 
           initial={{ opacity: 0, x: -30 }}
@@ -16,7 +16,7 @@ export default function Hero(){
         </motion.div>
         <h1 className="text-4xl font-bold mb-4 text-white">
           <Typewriter
-            words={["¡Hola! Soy Iván", "Tu Dev de confianza"]}
+            words={["¡Hola! Soy Iván", "Desarrollador Full Stack especializado en React, Kotlin y más."]}
             loop={1}
             cursor
             cursorStyle=">"
@@ -28,7 +28,7 @@ export default function Hero(){
 
 
         </h1>
-        <p className="text-lg text-gray-700">Desarrollador Full Stack especializado en React, Kotlin y más.</p>
+        {/*<p className="text-lg text-gray-700">Desarrollador Full Stack especializado en React, Kotlin y más.</p>*/}
       </section>
     )
 }
