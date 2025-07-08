@@ -22,7 +22,8 @@ export default function HomePage() {
       })
 
       // Animación básica al hacer scroll
-      gsap.utils.toArray(".animate-on-scroll").forEach((element: any) => {
+      gsap.utils.toArray(".animate-on-scroll").forEach((element) => {
+        if (element instanceof HTMLElement){
         gsap.fromTo(
           element,
           { opacity: 0, y: 50 },
@@ -38,6 +39,7 @@ export default function HomePage() {
             },
           }
         )
+      }
       })
     }, mainRef)
 
