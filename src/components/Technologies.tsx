@@ -3,7 +3,7 @@
 //import { motion } from 'framer-motion'
 import { FaReact, FaHtml5, FaCss3Alt, FaNodeJs, FaGitAlt } from 'react-icons/fa'
 
-import { SiNextdotjs, SiTailwindcss, SiFirebase, SiKotlin, SiJavascript, SiJetpackcompose,SiMysql } from 'react-icons/si'
+import { SiNextdotjs, SiTailwindcss, SiFirebase, SiKotlin, SiJavascript, SiJetpackcompose, SiMysql } from 'react-icons/si'
 
 const techs = [
     { icon: <FaReact size={40} color="#61DBFB" />, name: 'React' },
@@ -40,17 +40,17 @@ export default function Technologies() {
             </div>
         </section>*/
 
-         <section className=" animate-on-scroll min-h-screen flex flex-col items-center justify-center p-8 bg-black-100">
+        <section className="animate-on-scroll py-24 flex flex-col items-center justify-center px-8 bg-black-100">
             <span className="text-3xl font-bold mb-6 text-center" >Tecnologías que uso</span>
-            
+
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
                 {techs.map((tech, index) => (
                     <div
                         key={index}
-                        
+
                         className="hover:animate-pulse flex flex-col items-center justify-center gap-2 p-4 bg-white rounded-xl shadow-md"
                     >
-                        <span className= "hover:animate-spin">{tech.icon}</span>
+                        <span className="hover:animate-spin">{tech.icon}</span>
                         <span className="mt-2 text-sm text-gray-800">{tech.name}</span>
                     </div>
                 ))}
@@ -58,7 +58,7 @@ export default function Technologies() {
         </section>
 
 
-        
+
 
     )
 }
