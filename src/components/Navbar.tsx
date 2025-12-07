@@ -3,13 +3,13 @@
 
 import { FaLinkedin, FaGithub } from 'react-icons/fa'
 import { useState } from 'react'
-import{Menu,X} from "lucide-react";
+import { Menu, X } from "lucide-react";
 
 export default function Navbar() {
 
-const [menuOpen,setMenuOpen]=useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
 
-const toggleMenu=()=>setMenuOpen(!menuOpen);
+  const toggleMenu = () => setMenuOpen(!menuOpen);
 
   return (
     <nav className="fixed top-0 left-0 right-0 bg-black shadow-md z-50">
@@ -19,7 +19,7 @@ const toggleMenu=()=>setMenuOpen(!menuOpen);
           Iván Cano
         </div>
 
-            {/* Botón menú en móvil */}
+        {/* Botón menú en móvil */}
         <button
           onClick={toggleMenu}
           className="md:hidden text-white focus:outline-none"
@@ -61,7 +61,7 @@ const toggleMenu=()=>setMenuOpen(!menuOpen);
         </ul>
       </div>
 
-       {/* Menú desplegable móvil */}
+      {/* Menú desplegable móvil */}
       {menuOpen && (
         <div className="md:hidden px-4 pb-4">
           <ul className="flex flex-col gap-4 text-gray-400">
