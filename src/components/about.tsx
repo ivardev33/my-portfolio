@@ -40,6 +40,7 @@ export default function About() {
               </p>
             </div>
 
+
             <div className="space-y-2 pt-2">
               <p className="font-semibold">Freelance y Transición — Android y Frontend <span className="text-sm text-gray-400">(09/2022 – Presente)</span></p>
               <ul className="list-disc pl-6 space-y-2 text-gray-300">
