@@ -40,7 +40,7 @@ export default function Technologies() {
             </div>
         </section>*/
 
-        <section className="animate-on-scroll py-24 flex flex-col items-center justify-center px-8 bg-black-100">
+        <section id="technologies" className="animate-on-scroll py-24 flex flex-col items-center justify-center px-8 bg-black-100">
             <span className="text-3xl font-bold mb-6 text-center" >Tecnologías que uso</span>
 
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">

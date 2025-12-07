@@ -26,13 +26,18 @@ export default function About() {
             <h3 className="text-2xl font-semibold text-blue-300">Experiencia reciente</h3>
             <div className="space-y-2">
               <p className="font-semibold">SAGATECH — Desarrollador Frontend/Full Stack <span className="text-sm text-gray-400">(09/2025 – Presente)</span></p>
-              <ul className="list-disc pl-6 space-y-2 text-gray-300">
-                <li><span className="font-medium">API de Nóminas:</span> subida de PDFs (FormData), consulta por empleado, descarga/visualización segura, rutas protegidas, validación y manejo de errores con respuestas JSON.</li>
-                <li><span className="font-medium">Módulo RRHH (Nomina-user):</span> listado responsive (tabla/cards), descarga directa de PDF, previsualización en modal con iframe, control de estados, contadores, filtros y ordenación; integración front-API con <code>fetch()</code>.</li>
-                <li><span className="font-medium">Componentes reutilizables:</span> botones (ver/descargar/ordenar), barra de búsqueda con filtrado en tiempo real, modales reutilizables y formularios accesibles.</li>
-                <li><span className="font-medium">Diseño y maquetación:</span> interfaces con Astro, JavaScript y TailwindCSS; uso de variables de color; arquitectura modular y adaptación a mockups validados.</li>
-                <li><span className="font-medium">Metodología y GitFlow:</span> ramas <code>feature/</code>, PRs, revisión cruzada, resolución de conflictos y limpieza tras merges; uso habitual de <code>clone</code>, <code>checkout</code>, <code>fetch</code>, <code>merge</code>, <code>pull</code>, <code>push</code>, <code>branch -a</code>.</li>
-              </ul>
+              <p className="text-gray-300 leading-relaxed">
+                Participé en el desarrollo del ERP/CRM de Sagatech, un sistema modular orientado a la gestión empresarial. Fui responsable del módulo de Recursos Humanos,
+                abarcando <span className="font-medium">desarrollo frontend completo</span> con Astro, JavaScript y TailwindCSS, así como el <span className="font-medium">diseño e implementación
+                  de APIs REST</span> para la gestión de nóminas. Desarrollé endpoints para subida de documentos mediante FormData, consultas por empleado, descarga segura y gestión de rutas
+                protegidas, implementando validación de datos y manejo robusto de errores con respuestas JSON estructuradas.
+              </p>
+              <p className="text-gray-300 leading-relaxed">
+                En el frontend, construí interfaces responsivas con componentes reutilizables (botones, modales, barra de búsqueda con filtrado en tiempo real), aplicando
+                arquitectura modular y variables de color para mantener consistencia visual. Integré el frontend con las APIs mediante <code>fetch()</code>, gestionando estados de carga,
+                errores y éxito. Trabajé bajo metodología <span className="font-medium">GitFlow</span>, utilizando ramas <code>feature/</code>, Pull Requests, revisión de código y resolución
+                de conflictos, con documentación de avances en sprints y validación continua del tutor.
+              </p>
             </div>
 
             <div className="space-y-2 pt-2">
