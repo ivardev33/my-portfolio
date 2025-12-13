@@ -53,7 +53,7 @@ export default function Contact() {
             </div>
             <div className="flex flex-wrap gap-3">
               <a
-                href="/cv/Curriculum_Ivan_cano.pdf"
+                href="/cv/ivan_cano_cv_actualizado.pdf"
                 download
                 className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-white text-black hover:bg-gray-200 transition"
               >
