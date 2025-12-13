@@ -12,7 +12,7 @@ export default function Hero() {
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.6 }}
       >
-        <img src="/foto_perfil.jpg" alt="Foto de perfil" className="w-70 h-70 rounded-full mx-auto mb-6 shadow-md object-cover" />
+        <img src="/foto_perfil.jpeg" alt="Foto de perfil" className="w-70 h-70 rounded-full mx-auto mb-6 shadow-md object-cover" />
       </motion.div>
       <h1 className="text-4xl font-bold mb-6 text-white">
         <Typewriter
