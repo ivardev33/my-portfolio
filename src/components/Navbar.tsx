@@ -32,6 +32,7 @@ export default function Navbar() {
         <ul className="hidden md:flex items-center space-x-6 text-gray-400">
           <li><a href="#hero" className=" hover:text-white">Inicio</a></li>
           <li><a href="#technologies" className=" hover:text-white">Tecnologías</a></li>
+          <li><a href="#projects" className=" hover:text-white">Proyectos</a></li>
           <li><a href="#about" className=" hover:text-white">Sobre mí</a></li>
           <li><a href="#contact" className=" hover:text-white">Contacto</a></li>
 
@@ -67,6 +68,7 @@ export default function Navbar() {
           <ul className="flex flex-col gap-4 text-gray-400">
             <li><a onClick={toggleMenu} href="#hero" className="hover:underline hover:text-white">Inicio</a></li>
             <li><a onClick={toggleMenu} href="#technologies" className="hover:underline hover:text-white">Tecnologías</a></li>
+            <li><a onClick={toggleMenu} href="#projects" className="hover:underline hover:text-white">Proyectos</a></li>
             <li><a onClick={toggleMenu} href="#about" className="hover:underline hover:text-white">Sobre mí</a></li>
             <li><a onClick={toggleMenu} href="#contact" className="hover:underline hover:text-white">Contacto</a></li>
             <li className="flex gap-4">
